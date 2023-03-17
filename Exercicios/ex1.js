@@ -4,7 +4,6 @@ function Enviar(){
 
  if(idade<=18){
     alert("Você não pode comprar este ingresso")
- }else(idade>=18){
+ }else(idade>=18)
      alert("Você é maior")
  }
-}
