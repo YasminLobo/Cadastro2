@@ -6,7 +6,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(226, 39, 223, 0.227);
+    background-image: ;
     margin: 0 auto;
     max-width: max-content;
 }
