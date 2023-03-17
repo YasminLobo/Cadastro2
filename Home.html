@@ -9,7 +9,7 @@
     <meta name="author" content="SESI SENAI">
     <meta name="keywords" content="SESI, SENAI, Forms, CSS, html">
     <link rel="stylesheet" href="css.css">
-    
+
     <!-- Link com arquivo Java Script-->
     <script src="main.js"></script>
     <title>Formulário Login</title>
@@ -22,22 +22,22 @@
                 <header>
                     <br>
                     <h1>Formulário de Login</h1><br>
-                    <div class="Usuário" >
-                    <img src="img/Usuário.jfif" alt="img usuário">
-                </div>
+                    <div class="Usuário">
+                        <img src="img/Usuário.jfif" alt="img usuário">
+                    </div>
                 </header>
-                <label for="name">Usuário: </label><br>
-                    <input placeholder="Digite seu usuário aqui." type="text" name="name" id="user" required><br>
-                <label for="password">Senha: </label><br>
-                    <input placeholder="Digite sua senha aqui." type="password" name="password" id="password" required><br>
-                    <input type="checkbox" id="scales" name="scales" checked>
-                    <label for="checkbox">Lembrar senha </label>
-                    <br>
-                    <br>
-                    <button onclick="entrar()">Clique aqui</button>
+                <form method="POST" class="formLogin">
 
-            </form>
+                    <label for="Usuário">Usuário</label>
+                    <input type="Nome" placeholder="Digite seu nome" autofocus="true" id="usuario" />
+                    <label for="password">Senha</label>
+                    <input type="password" placeholder="Digite sua Senha" id="senha" />
+                    <button type="reset" onclick="login()">Entrar</button>
+                </form>
         </div>
+
+        </form>
+    </div>
     </div>
 
 </body>
