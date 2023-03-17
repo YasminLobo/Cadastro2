@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt/BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +9,32 @@
     <meta name="author" content="SESI SENAI">
     <meta name="keywords" content="SESI, SENAI, Forms, CSS, html">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/css.css">
     <!-- Link com arquivo Java Script-->
-     <script src ="main.js"></script>
+    <script src="main.js"></script>
     <title>Formulário Login</title>
 </head>
+
 <body>
     <div class="container">
         <div class="div-form">
-            <form class= "form">
+            <form class="form">
                 <header>
-                    <br><h1>Formulário de Login</h1><br>
+                    <br>
+                    <h1>Formulário de Login</h1><br>
+                    <div class="Usuário" >
+                    <img src="Usuário.jfif" alt="img usuário">
+                </div>
                 </header>
                 <label for="user">Usuário: </label><br>
-                    <input placeholder="Digite seu usuário aqui." type="text" name="user" id="user" required><br>
+                <input placeholder="Digite seu usuário aqui." type="text" name="user" id="user" required><br>
                 <label for="senha">Senha: </label><br>
-                    <input placeholder="Digite sua senha aqui." type="senha" name="senha" id="senha" required><br>
+                <input placeholder="Digite sua senha aqui." type="senha" name="senha" id="senha" required><br>
                 <input type="submit" name="submit" id="submit" value="Enviar" onclick="Enviar()">
             </form>
         </div>
     </div>
-    
+
 </body>
+
 </html>
