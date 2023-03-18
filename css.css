@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(226, 39, 223, 0.227);
+    background-image: url("img/0932bd0933ddc0e9f51db961bb6da729--barbie-paris-tile-wallpaper.jpg");
 
     margin: 0 auto;
     max-width: max-content;
@@ -19,12 +19,12 @@ body{
 }
 
 .div-form{
-    background-color: rgb(255, 255, 255);
+    background-color: #F1B4E0;
     border-radius: 8px;
     padding: 20px;
 }
-#submit{
-    background-color: rgba(202, 194, 194, 0.249);
+.login{
+    color: blue;
     border-radius: 8px;
     width: 400px;
 }
@@ -36,4 +36,5 @@ label{
 
 h1{
     text-align: center;
+  color: rgb(226, 43, 165);
 }

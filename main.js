@@ -7,11 +7,11 @@ function login() {
 
     if (tentativausuario == usuario && tentativasenha == senha) {
         alert("login correto, entrada no sistema...");
-        window.location.href = "https://www.sp.senai.br/";
+        window.location.href = "https://www.jogos360.com.br/super_barbie_real_makeover.html";
 
     } else {
-        alert("senha incorreta, tenta novamente");
-        window.location.href = "index.html"
+        alert("senha incorreta, tente novamente");
+        window.location.href = "file:///C:/Users/lobo_/Documents/GitHub/Cadastro2/Home.html"
 
     }
 }
