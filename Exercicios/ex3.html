@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Teste de switch case</title>
+  </head>
+  <body>
+    <input type="text" id="fruta-input" placeholder="Digite o nome da fruta...">
+    <button onclick="verificarFruta()">Verificar</button>
+    <script>
+      function verificarFruta() {
+        var fruta = document.getElementById("fruta-input").value.toLowerCase();
+
+        switch(fruta) {
+          case "maçã":
+            alert("Não vendemos esta fruta aqui");
+            break;
+          case "kiwi":
+            alert("Estamos com escassez de kiwis");
+            break;
+          case "melancia":
+            alert("Aqui está, são 3 reais o quilo");
+            break;
+          default:
+            alert("Erro de escolha");
+        }
+      }
+    </script>
+  </body>
+</html>
